@@ -1,6 +1,6 @@
 # React to-do project
 
-This is a simple website where users can add new to-do tasks, mark them as done as well as delete them. Tasks are stored in local storage. If there are tasks saved in local storage, then they will be set as initial value in the initial render.
+This is a simple [website](https://pei-wen-code.github.io/reactodoproject/) where users can add new to-do tasks, mark them as done as well as delete them. Tasks are stored in local storage. If there are tasks saved in local storage, then they will be set as initial value in the initial render.
 
 <img width="1426" alt="reacttodo" src="https://user-images.githubusercontent.com/58638019/132095874-d2c6353e-f793-4371-a68a-d04b517958cb.png">
 
