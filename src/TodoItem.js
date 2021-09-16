@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { MEDIA_QUERY_MD, MEDIA_QUERY_LG } from './constants/style';
+import { MEDIA_QUERY_SM, MEDIA_QUERY_MD, MEDIA_QUERY_LG } from './constants/style';
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -37,8 +37,12 @@ const Button = styled.button`
   color: green;
   font-size: 20px;
 
-  ${MEDIA_QUERY_MD} {
+  ${MEDIA_QUERY_SM} {
     font-size: 16px;
+  }
+
+  ${MEDIA_QUERY_MD} {
+    font-size: 14px;
   }
 
   ${MEDIA_QUERY_LG} {
@@ -62,7 +66,6 @@ export default function TodoItem ({ className, size, todo, handleDeleteTodo, han
   const handleDeleteClick = () => {
     handleDeleteTodo(todo.id)
   }
-
   return (
     <TodoItemWrapper className={className} data-todo-id={todo.id}>
       <TodoContent $isDone={todo.isDone} size={size}>{todo.content}</TodoContent>

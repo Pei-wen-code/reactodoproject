@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="container" style={{width: '100%', minHeight: '100vh', background: '#4C4C6D'}}>
       <div className="App" style={{ 
-        width: '700px',
+        width: '70%',
         margin: '0 auto',
         paddingTop: '10%',
         paddingBottom: '10%', 
