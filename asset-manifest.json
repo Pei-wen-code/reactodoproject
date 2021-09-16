@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactodoproject/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/reactodoproject/static/js/main.eacedc30.chunk.js",
-    "main.js.map": "/reactodoproject/static/js/main.eacedc30.chunk.js.map",
+    "main.js": "/reactodoproject/static/js/main.cbce7d0d.chunk.js",
+    "main.js.map": "/reactodoproject/static/js/main.cbce7d0d.chunk.js.map",
     "runtime-main.js": "/reactodoproject/static/js/runtime-main.d12acd89.js",
     "runtime-main.js.map": "/reactodoproject/static/js/runtime-main.d12acd89.js.map",
     "static/js/2.8b012c4b.chunk.js": "/reactodoproject/static/js/2.8b012c4b.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d12acd89.js",
     "static/js/2.8b012c4b.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.eacedc30.chunk.js"
+    "static/js/main.cbce7d0d.chunk.js"
   ]
 }
